@@ -8,7 +8,7 @@ class Main extends CI_Controller {
 		$this->load->model('Madmin');
 		$this->load->library('cart');
 
-		$params = array('server_key' => 'SB-Mid-server-Y6-tM736wkEUCBt4UGvSPofl', 'production' => false);
+		$params = array('server_key' => 'your_server_key', 'production' => false);
 		$this->load->library('midtrans');
 		$this->midtrans->config($params);
 		$this->load->helper('url');
